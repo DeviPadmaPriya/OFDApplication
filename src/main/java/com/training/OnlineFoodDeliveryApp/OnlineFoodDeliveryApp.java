@@ -8,6 +8,7 @@ public class OnlineFoodDeliveryApp {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OnlineFoodDeliveryApp.class, args);
+		//raja
 	}
 
 }
