@@ -13,7 +13,7 @@ import com.training.OnlineFoodDeliveryApp.model.Restaurant;
 import com.training.OnlineFoodDeliveryApp.services.RestaurantService;
 
 @RestController
-public class HomeController {
+public class AppController {
 	
 	@Autowired
 	JdbcTemplate jdbctemplate;
