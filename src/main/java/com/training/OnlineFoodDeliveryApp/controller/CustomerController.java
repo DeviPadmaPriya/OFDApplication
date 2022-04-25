@@ -1,4 +1,4 @@
-package com.training.project.customer.controller;
+package com.training.OnlineFoodDeliveryApp.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 

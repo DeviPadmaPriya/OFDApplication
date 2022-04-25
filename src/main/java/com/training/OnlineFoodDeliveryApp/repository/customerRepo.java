@@ -1,8 +1,8 @@
-package com.training.project.customer.repository;
+package com.training.OnlineFoodDeliveryApp.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.training.project.customer.model.Customer;
+import com.training.OnlineFoodDeliveryApp.model.Customer;
 
 public interface customerRepo extends JpaRepository<Customer,Integer>{
 

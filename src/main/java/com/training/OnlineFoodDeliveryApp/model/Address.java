@@ -1,4 +1,4 @@
-package com.training.project.customer.model;
+package com.training.OnlineFoodDeliveryApp.model;
 
 import javax.persistence.Id;
 
