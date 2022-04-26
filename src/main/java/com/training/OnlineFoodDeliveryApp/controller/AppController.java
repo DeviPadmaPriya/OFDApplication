@@ -21,6 +21,8 @@ public class AppController {
 	@Autowired 
 	RestaurantService service;
 	
+	
+	
 	@RequestMapping("/")
 	public String viewHomePage(Model model) {
 	    List<Restaurant> listRestaurants = service.listAll();
