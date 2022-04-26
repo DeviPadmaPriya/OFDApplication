@@ -10,5 +10,6 @@ import com.training.OnlineFoodDeliveryApp.model.User;
 public interface UserRepositorty  extends JpaRepository<User,Integer> {
 	User findByUsernameAndPassword(String username,String password);
 	
+	
 
 }

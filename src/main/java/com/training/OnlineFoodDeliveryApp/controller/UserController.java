@@ -20,6 +20,7 @@ public class UserController {
 	private UserService userService;
 	
 	@GetMapping("/login")
+	
 	public ModelAndView login() {
 		ModelAndView mav=new ModelAndView("login");
 		mav.addObject("user",new User());
