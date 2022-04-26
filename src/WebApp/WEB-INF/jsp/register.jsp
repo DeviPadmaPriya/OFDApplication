@@ -72,7 +72,7 @@
     <input type="text" name="userName" id="" placeholder="Username"><br>
     <label for="password">Password: </label>
     <input type="text" name="password" id="" placeholder="Password"><br>
-    <input type="submit" id="login" value="Login">
+    <input type="submit" id="login" value="Register">
 
 </form></div>
 <footer></footer>
