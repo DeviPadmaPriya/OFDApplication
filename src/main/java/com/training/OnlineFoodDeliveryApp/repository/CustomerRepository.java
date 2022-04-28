@@ -8,6 +8,7 @@ import com.training.OnlineFoodDeliveryApp.model.Customer;
 
 
 @Repository
+
 public interface CustomerRepository extends JpaRepository<Customer, Integer>{
 
 

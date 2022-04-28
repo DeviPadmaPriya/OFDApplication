@@ -8,6 +8,7 @@ import com.training.OnlineFoodDeliveryApp.model.Admin;
 
 
 @Repository
+
 public interface AdminRepository extends JpaRepository<Admin, Integer>{
 
 

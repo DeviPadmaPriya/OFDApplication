@@ -53,6 +53,7 @@
         border: 2px solid white;
         color: white;
         font-size: 20px;
+        
         text-align: center;
         height: 35px;
         padding: 0px 20px;

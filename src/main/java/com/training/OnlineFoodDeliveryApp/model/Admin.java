@@ -19,6 +19,7 @@ public abstract class Admin extends AbstractUser{
 	public Admin() {}
 
 	public Admin(int adminId) {
+		
 		super();
 		this.adminId = adminId;
 	}

@@ -11,6 +11,7 @@ public class ApplicationController {
 	public ModelAndView homePage() {
 		return new ModelAndView("home");
 	}
+	
 	@GetMapping("/login")
 	public ModelAndView loginPage() {
 		return new ModelAndView("login");
