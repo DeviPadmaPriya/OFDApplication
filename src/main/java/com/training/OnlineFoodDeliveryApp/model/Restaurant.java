@@ -1,19 +1,28 @@
 package com.training.OnlineFoodDeliveryApp.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
-@Table(name="RESTAURANTS")
+@Table(name="RESTAURANT")
 public class Restaurant {
 	@Id
 	@GeneratedValue (strategy=GenerationType.IDENTITY)
 	private int RestaurantId;
+	
+	@Column(name="RestaurantName")
 	private String RestaurantName;
+	
+	@Column
 	private String Address;
+	
+	@Column(name="ManagerName")
 	private String ManagerName;
+	
+	@Column(name="ContactNum")
 	private Double ContactNum;
 	
 	public Restaurant() {
